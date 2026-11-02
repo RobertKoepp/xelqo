@@ -1,5 +1,7 @@
 
-/* XELQO — Complete Website Stylesheet */
+/* ==========================================
+   XELQO — COMPLETE WEBSITE STYLESHEET
+   ========================================== */
 
 :root {
   --navy: #0b1f2a;
@@ -35,11 +37,15 @@ a {
   text-decoration: none;
 }
 
-button, input, select, textarea {
+button,
+input,
+select,
+textarea {
   font: inherit;
 }
 
-button, a {
+button,
+a {
   -webkit-tap-highlight-color: transparent;
 }
 
@@ -65,11 +71,16 @@ svg {
   background: var(--ivory);
 }
 
-h1, h2, h3, p {
+h1,
+h2,
+h3,
+p {
   margin-top: 0;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: "Manrope", sans-serif;
 }
 
@@ -79,7 +90,8 @@ h2 {
   line-height: 1.13;
 }
 
-h2 em, h1 em {
+h2 em,
+h1 em {
   font-style: normal;
   color: var(--teal);
 }
@@ -104,14 +116,16 @@ h2 em, h1 em {
   color: var(--teal);
 }
 
-/* Navigation */
+/* ==========================================
+   NAVIGATION
+   ========================================== */
 
 .site-header {
   position: sticky;
   top: 0;
   z-index: 100;
-  background: rgba(11,31,42,0.97);
-  border-bottom: 1px solid rgba(255,255,255,0.09);
+  background: rgba(11, 31, 42, 0.97);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.09);
   backdrop-filter: blur(16px);
 }
 
@@ -189,7 +203,9 @@ h2 em, h1 em {
   margin: 5px 0;
 }
 
-/* Hero */
+/* ==========================================
+   HERO
+   ========================================== */
 
 .hero {
   background: var(--navy);
@@ -208,7 +224,7 @@ h2 em, h1 em {
   top: -200px;
   background: radial-gradient(
     circle,
-    rgba(66,165,161,0.16),
+    rgba(66, 165, 161, 0.16),
     transparent 65%
   );
   pointer-events: none;
@@ -321,7 +337,9 @@ h2 em, h1 em {
   letter-spacing: 0.12em;
 }
 
-/* Hero illustration */
+/* ==========================================
+   HERO ILLUSTRATION
+   ========================================== */
 
 .hero-art {
   height: 470px;
@@ -333,7 +351,7 @@ h2 em, h1 em {
 
 .orbit {
   position: absolute;
-  border: 1px solid rgba(184,219,217,0.17);
+  border: 1px solid rgba(184, 219, 217, 0.17);
   border-radius: 50%;
 }
 
@@ -363,8 +381,8 @@ h2 em, h1 em {
     #245763,
     #0d2934 75%
   );
-  border: 1px solid rgba(184,219,217,0.35);
-  box-shadow: 0 0 100px rgba(73,182,176,0.18);
+  border: 1px solid rgba(184, 219, 217, 0.35);
+  box-shadow: 0 0 100px rgba(73, 182, 176, 0.18);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -394,10 +412,10 @@ h2 em, h1 em {
   align-items: center;
   gap: 12px;
   padding: 13px 16px;
-  background: rgba(24,56,66,0.94);
-  border: 1px solid rgba(184,219,217,0.22);
+  background: rgba(24, 56, 66, 0.94);
+  border: 1px solid rgba(184, 219, 217, 0.22);
   border-radius: 11px;
-  box-shadow: 0 15px 40px rgba(0,0,0,0.18);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.18);
 }
 
 .float-card b,
@@ -452,7 +470,9 @@ h2 em, h1 em {
   top: 115px;
 }
 
-/* Intro */
+/* ==========================================
+   INTRO
+   ========================================== */
 
 .intro-grid {
   display: grid;
@@ -472,7 +492,9 @@ h2 em, h1 em {
   max-width: 730px;
 }
 
-/* Section headings */
+/* ==========================================
+   SECTION HEADINGS
+   ========================================== */
 
 .services {
   background: #edf3f4;
@@ -497,7 +519,9 @@ h2 em, h1 em {
   font-size: 0.95rem;
 }
 
-/* Services */
+/* ==========================================
+   SERVICES
+   ========================================== */
 
 .service-grid {
   display: grid;
@@ -518,7 +542,7 @@ h2 em, h1 em {
 
 .service-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 20px 50px rgba(11,31,42,0.08);
+  box-shadow: 0 20px 50px rgba(11, 31, 42, 0.08);
 }
 
 .service-featured {
@@ -590,11 +614,13 @@ h2 em, h1 em {
 }
 
 .service-featured .card-link {
-  border-color: rgba(255,255,255,0.18);
+  border-color: rgba(255, 255, 255, 0.18);
   color: var(--seafoam);
 }
 
-/* Portfolio */
+/* ==========================================
+   PORTFOLIO
+   ========================================== */
 
 .work-grid {
   display: grid;
@@ -644,7 +670,7 @@ h2 em, h1 em {
   border-radius: 10px;
   background: #f8fbfc;
   overflow: hidden;
-  box-shadow: 0 30px 60px rgba(0,0,0,0.25);
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.25);
   transform: rotate(-5deg);
 }
 
@@ -736,16 +762,16 @@ h2 em, h1 em {
   height: 170px;
   border-radius: 12px;
   background: white;
-  box-shadow: 0 15px 40px rgba(11,31,42,0.13);
+  box-shadow: 0 15px 40px rgba(11, 31, 42, 0.13);
 }
 
 .ticket-back {
-  transform: rotate(12deg) translate(15px,-5px);
+  transform: rotate(12deg) translate(15px, -5px);
   opacity: 0.65;
 }
 
 .ticket-mid {
-  transform: rotate(-7deg) translate(-10px,5px);
+  transform: rotate(-7deg) translate(-10px, 5px);
   opacity: 0.8;
 }
 
@@ -816,7 +842,9 @@ h2 em, h1 em {
   line-height: 1.7;
 }
 
-/* About */
+/* ==========================================
+   ABOUT
+   ========================================== */
 
 .about {
   background: #e7eff0;
@@ -873,30 +901,41 @@ h2 em, h1 em {
   margin-bottom: 30px;
 }
 
-/* Contact */
+/* ==========================================
+   PREMIUM CONTACT SECTION
+   ========================================== */
 
 .contact {
-  background: var(--navy);
+  background:
+    radial-gradient(
+      ellipse at 5% 10%,
+      rgba(77, 174, 169, 0.12),
+      transparent 48%
+    ),
+    linear-gradient(145deg, #0b1f2a, #102f3a);
   color: white;
-  padding: 110px 0;
+  padding: 125px 0;
+  overflow: hidden;
 }
 
 .xelqo-contact {
   display: grid;
-  grid-template-columns: 0.9fr 1.1fr;
-  gap: 70px;
-  align-items: start;
+  grid-template-columns: 0.85fr 1.15fr;
+  align-items: center;
+  gap: clamp(40px, 6vw, 95px);
 }
 
 .contact-intro .section-kicker {
   color: var(--seafoam);
+  letter-spacing: 0.2em;
 }
 
 .contact-intro h2 {
-  font-size: clamp(2.5rem, 4.5vw, 4.5rem);
-  line-height: 1.12;
-  letter-spacing: -0.06em;
-  margin: 20px 0 26px;
+  color: white;
+  font-size: clamp(2.8rem, 4.5vw, 4.8rem);
+  line-height: 1.1;
+  letter-spacing: -0.065em;
+  margin: 20px 0 30px;
 }
 
 .contact-intro h2 em {
@@ -904,122 +943,163 @@ h2 em, h1 em {
 }
 
 .contact-intro > p:not(.section-kicker) {
-  color: #bbd0d2;
-  line-height: 1.85;
-  max-width: 440px;
+  color: #a9c1c5;
+  font-size: 1rem;
+  line-height: 1.9;
 }
 
 .contact-email {
-  margin-top: 35px;
+  margin-top: 42px;
+  padding-top: 30px;
+  border-top: 1px solid rgba(184, 219, 217, 0.18);
 }
 
 .contact-email a {
+  display: inline-block;
+  margin-top: 10px;
   color: var(--seafoam);
-  text-decoration: underline;
-  text-underline-offset: 5px;
+  font-weight: 700;
+  text-decoration: none;
   overflow-wrap: anywhere;
+  transition: color 0.2s;
 }
 
-/* Form card */
+.contact-email a:hover {
+  color: white;
+}
+
+/* Contact form card */
 
 .xelqo-form {
-  background: var(--ivory);
-  color: var(--navy);
-  border: 1px solid #dbe6e8;
+  position: relative;
+  background: rgba(255, 255, 255, 0.055);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(184, 219, 217, 0.2);
   border-radius: 20px;
-  padding: 36px;
+  padding: clamp(26px, 4vw, 48px);
+  box-shadow: 0 28px 75px rgba(0, 0, 0, 0.16);
+  color: white;
   text-align: left;
-  box-shadow: 0 25px 65px rgba(0,0,0,0.18);
 }
 
 .form-row {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 18px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
 }
 
 .form-field {
   display: flex;
   flex-direction: column;
-  gap: 9px;
-  margin-bottom: 22px;
+  gap: 10px;
+  margin-bottom: 25px;
 }
 
 .form-field label {
-  font-size: 0.84rem;
+  color: #e2f0ef;
+  font-size: 0.79rem;
   font-weight: 700;
-  color: var(--navy);
+  letter-spacing: 0.02em;
 }
+
+/* Contact form inputs */
 
 .form-field input,
 .form-field select,
 .form-field textarea {
   display: block;
   width: 100%;
-  padding: 14px 16px;
-  border: 1px solid #cfdbde;
+  min-height: 54px;
+  padding: 15px 17px;
   border-radius: 9px;
-  background: white;
-  color: var(--navy);
-  font-size: 0.94rem;
+  border: 1px solid rgba(184, 219, 217, 0.2);
+  background: rgba(5, 22, 30, 0.5);
+  color: white;
+  font-size: 0.91rem;
+  font-family: "DM Sans", sans-serif;
   line-height: 1.5;
   outline: none;
-  transition: border-color 0.2s, box-shadow 0.2s;
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease,
+    background 0.2s ease;
+}
+
+.form-field textarea {
+  min-height: 145px;
+  resize: vertical;
 }
 
 .form-field input::placeholder,
 .form-field textarea::placeholder {
-  color: #84969b;
-}
-
-.form-field textarea {
-  resize: vertical;
-  min-height: 130px;
+  color: #829da3;
 }
 
 .form-field input:focus,
 .form-field select:focus,
 .form-field textarea:focus {
-  border-color: #408f8d;
-  box-shadow: 0 0 0 3px rgba(64,143,141,0.15);
+  border-color: var(--seafoam);
+  background: rgba(5, 22, 30, 0.75);
+  box-shadow: 0 0 0 3px rgba(184, 219, 217, 0.12);
 }
+
+.form-field select {
+  cursor: pointer;
+  color-scheme: dark;
+}
+
+.form-field select option {
+  background: var(--navy);
+  color: white;
+}
+
+/* Contact submit button */
 
 .xelqo-submit {
   width: 100%;
+  min-height: 58px;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 14px;
-  padding: 17px 22px;
+  gap: 15px;
+  padding: 17px 24px;
+  background: var(--seafoam);
   border: none;
   border-radius: 9px;
-  background: var(--navy);
-  color: white;
+  color: var(--navy);
   font-family: "Manrope", sans-serif;
-  font-size: 0.94rem;
   font-weight: 800;
-  transition: background 0.2s, transform 0.2s;
+  font-size: 0.94rem;
+  cursor: pointer;
+  transition:
+    transform 0.2s ease,
+    background 0.2s ease,
+    box-shadow 0.2s ease;
 }
 
 .xelqo-submit:hover {
-  background: #174b54;
+  background: #d4f0ed;
   transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgba(184, 219, 217, 0.15);
 }
 
 .xelqo-submit:focus-visible {
-  outline: 3px solid var(--teal);
-  outline-offset: 3px;
+  outline: 3px solid white;
+  outline-offset: 4px;
 }
 
 .form-note {
-  margin: 16px 0 0;
-  font-size: 0.73rem;
-  line-height: 1.65;
-  color: var(--slate);
+  margin: 20px 0 0;
+  color: #94aeb2;
+  font-size: 0.74rem;
+  line-height: 1.7;
   text-align: center;
 }
 
-/* Footer */
+/* ==========================================
+   FOOTER
+   ========================================== */
 
 .footer {
   background: #071923;
@@ -1048,7 +1128,9 @@ h2 em, h1 em {
   color: #90aab0;
 }
 
-/* Tablet */
+/* ==========================================
+   TABLET
+   ========================================== */
 
 @media (max-width: 950px) {
   .hero-grid {
@@ -1072,14 +1154,22 @@ h2 em, h1 em {
   .about-grid {
     gap: 40px;
   }
+}
 
+@media (max-width: 900px) {
   .xelqo-contact {
     grid-template-columns: 1fr;
-    gap: 42px;
+    gap: 45px;
+  }
+
+  .contact-intro {
+    max-width: 650px;
   }
 }
 
-/* Mobile */
+/* ==========================================
+   MOBILE
+   ========================================== */
 
 @media (max-width: 700px) {
   .container {
@@ -1110,7 +1200,7 @@ h2 em, h1 em {
     right: 0;
     padding: 25px 22px;
     background: var(--navy);
-    border-top: 1px solid rgba(255,255,255,0.1);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
     flex-direction: column;
     align-items: stretch;
     gap: 23px;
@@ -1229,11 +1319,16 @@ h2 em, h1 em {
   }
 
   .xelqo-form {
-    padding: 25px 20px;
+    padding: 26px 20px;
+    border-radius: 15px;
+  }
+
+  .contact {
+    padding: 80px 0;
   }
 
   .contact-intro h2 {
-    font-size: 2.8rem;
+    font-size: 2.7rem;
   }
 
   .footer-inner {
@@ -1265,6 +1360,10 @@ h2 em, h1 em {
     transform: scale(0.85);
   }
 }
+
+/* ==========================================
+   ACCESSIBILITY
+   ========================================== */
 
 @media (prefers-reduced-motion: reduce) {
   html {
