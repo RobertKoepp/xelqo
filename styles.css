@@ -901,6 +901,29 @@ h1 em {
   margin-bottom: 30px;
 }
 
+.about-principles {
+  display: grid;
+  gap: 0;
+  margin: 6px 0 30px;
+  border-top: 1px solid #bfd2d5;
+}
+.about-principle {
+  display: grid;
+  gap: 5px;
+  padding: 17px 0;
+  border-bottom: 1px solid #bfd2d5;
+}
+.about-principle strong {
+  color: var(--navy);
+  font-family: "Manrope", sans-serif;
+  font-size: 0.95rem;
+}
+.about-principle span {
+  color: var(--slate);
+  line-height: 1.65;
+  font-size: 0.93rem;
+}
+
 /* ==========================================
    PREMIUM CONTACT SECTION
    ========================================== */
